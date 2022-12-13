@@ -1,2 +1,69 @@
+
+<header class="l-header">
+   
+    <div class="toggle"  (click)="switchTheme()">
+                
+        <img id="theme-icon"    src="https://www.uplooder.net/img/image/2/addf703a24a12d030968858e0879b11e/moon.svg" alt="ERR">
+      </div>
+    <nav class="nav bd-grid">
+        <div class="about__social">
+           
+            <a href="#" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
+            <a href="#" class="about__social-icon"><i class='bx bxl-github' ></i></a>
+            
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li  class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                <li  class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                <li  class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                <li class="nav__item"><a href="#portfolio" class="nav__link">portfolio</a></li>
+                <li class="nav__item"><a href="#service" class="nav__link"> service</a></li>
+                <li class="nav__item"><a routerLink="/resume" class="nav__link">Resume</a></li>
+                <li  class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                
+            </ul>
+        </div>
+
+      
+    </nav>
+
+</header>
+  
 <router-outlet></router-outlet>
 
+
+<!--===== FOOTER =====-->
+<footer class="footer section">
+    <div class="footer__container bd-grid">
+        <div class="footer__data">
+            <h2 class="footer__title">Malek Hammami</h2>
+            <p class="footer__text">I'm Malek Hammami this is my personal website</p>
+        </div>
+
+        <div class="footer__data">
+            <h2 class="footer__title">EXPLORE</h2>
+            <ul>
+                <li><a href="#home" class="footer__link">Home</a></li>
+                <li><a href="#about" class="footer__link">About</a></li>
+                <li><a href="#skills" class="footer__link">Skills</a></li>
+                <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
+                <li><a href="#Contact" class="footer__link">Contact</a></li>
+            </ul>
+        </div>
+        
+        <div class="footer__data">
+            <h2 class="footer__title">FOLLOW</h2>
+            <a href="#" class="footer__social"><i class='bx bxl-facebook' ></i></a>
+            <a href="#" class="footer__social"><i class='bx bxl-instagram' ></i></a>
+            <a href="#" class="footer__social"><i class='bx bxl-twitter' ></i></a>
+        </div>
+        
+
+    </div>
+</footer>
+
+<footer class="text-center mt-2">
+    <p>&copy; eeducation 2020. All right reserved</p>
+  </footer>
