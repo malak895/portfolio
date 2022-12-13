@@ -49,15 +49,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MalekHammam/my-portfolio.git"
+    "url": "git+https://github.com/MalekHammam/portfolio.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MalekHammam/my-portfolio/issues"
+    "url": "https://github.com/MalekHammam/portfolio/issues"
   },
 
-  "homepage": "https://github.com/MalekHammam/my-portfolio"
+  "homepage": "https://github.com/MalekHammam/portfolio"
 
 }
 
