@@ -1,10 +1,8 @@
 
+
 <header class="l-header">
-   
-    <div class="toggle"  (click)="switchTheme()">
-                
-        <img id="theme-icon"    src="https://www.uplooder.net/img/image/2/addf703a24a12d030968858e0879b11e/moon.svg" alt="ERR">
-      </div>
+  
+    
     <nav class="nav bd-grid">
         <div class="about__social">
            
@@ -26,20 +24,22 @@
             </ul>
         </div>
 
-      
+        <div class="nav__toggle" id="nav-toggle">
+            <i class='bx bx-menu'></i>
+        </div>
     </nav>
 
 </header>
-  
-<router-outlet></router-outlet>
 
-
-<!--===== FOOTER =====-->
-<footer class="footer section">
+<section>
+    <router-outlet></router-outlet>
+  </section>
+ <!--===== FOOTER =====-->
+ <footer class="footer section">
     <div class="footer__container bd-grid">
         <div class="footer__data">
             <h2 class="footer__title">Malek Hammami</h2>
-            <p class="footer__text">I'm Malek Hammami this is my personal website</p>
+            <p class="footer__text">I'm Malek Hammami Doe and this is my personal website</p>
         </div>
 
         <div class="footer__data">
@@ -59,11 +59,8 @@
             <a href="#" class="footer__social"><i class='bx bxl-instagram' ></i></a>
             <a href="#" class="footer__social"><i class='bx bxl-twitter' ></i></a>
         </div>
-        
+
 
     </div>
 </footer>
 
-<footer class="text-center mt-2">
-    <p>&copy; eeducation 2020. All right reserved</p>
-  </footer>

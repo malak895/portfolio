@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;600;700&display=swap");
 
 /*responsive css*/
-.box::after {
+.home__img {
     content: "";
     clear: both;
     display: table;
@@ -29,7 +29,7 @@
 
 
 
-.menu ul {
+.home__img {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -412,7 +412,7 @@ img{
     position: absolute;
     right: 50px;
     height: 100%;
-    width: calc(130% - 80px);
+    
     
     bottom: -20px;
     transform: rotateY('180deg');
@@ -426,7 +426,7 @@ img{
 }
 @keyframes animateUser {
     50%{
-        right: 30px;
+        right: 50px;
          bottom: -20px;
     }
 }
