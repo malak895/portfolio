@@ -26,7 +26,6 @@ a {
   flex-wrap: wrap; 
 }
 
-
 .row {
   display: flex;
   justify-content: space-between; 
