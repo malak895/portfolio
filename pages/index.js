@@ -41,7 +41,7 @@ export default function Home() {
     { src: typescriptIcon },
   ];
   
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(false);
 
   return (
     <div className={darkMode ? "dark" : ""}>
@@ -111,14 +111,14 @@ export default function Home() {
        <div className="container">
   <div className="flex flex-wrap">
     {circularImages.slice(0, 5).map((image, index) => (
-      <div key={index} className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
+      <div key={index} className="w-full md:w-1/2 lg:w-1/3 xl:w-2/4 p-4">
         <div className="ball">
           <Image src={image.src} alt={`Description of image ${index}`} width={image.width} height={image.height} />
         </div>
       </div>
     ))}
     {circularImages.slice(5).map((image, index) => (
-      <div key={index} className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
+      <div key={index} className="w-full md:w-1/2 lg:w-1/3 xl:w-2/4 p-4">
         <div className="ball">
           <Image src={image.src} alt={`Description of image ${index + 5}`} width={image.width} height={image.height} />
         </div>
