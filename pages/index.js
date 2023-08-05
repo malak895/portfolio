@@ -102,31 +102,33 @@ export default function Home() {
           </div>
         </section>
 
-    <div>
+    
     <h4 className="mb-4 text-3xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Technology</h4>
         <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">  Highlighting Various <span className="text-teal-500"> Technologies </span> in my Portfolio,
         The portfolio technology is an essential aspect of my <span className="text-teal-500"> professional journey </span> , Thanks to cutting-edge tools and innovative techniques.
        </p>
      
        <div className="container">
-      <div className="row ">
-        {circularImages.slice(0, 5).map((image, index) => (
-          <div key={index} className="ball">
-            <Image src={image.src} alt={`Description of image ${index}`} width={image.width} height={image.height} />
-          </div>
-        ))}
+  <div className="flex flex-wrap">
+    {circularImages.slice(0, 5).map((image, index) => (
+      <div key={index} className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
+        <div className="ball">
+          <Image src={image.src} alt={`Description of image ${index}`} width={image.width} height={image.height} />
+        </div>
       </div>
-      <div className="row">
-        {circularImages.slice(5).map((image, index) => (
-          <div key={index} className="ball">
-            <Image src={image.src} alt={`Description of image ${index + 5}`} width={image.width} height={image.height} />
-          </div>
-        ))}
+    ))}
+    {circularImages.slice(5).map((image, index) => (
+      <div key={index} className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
+        <div className="ball">
+          <Image src={image.src} alt={`Description of image ${index + 5}`} width={image.width} height={image.height} />
+        </div>
       </div>
-    </div>
+    ))}
+  </div>
+</div>
 
 
-    </div>
+
    
     <section className="py-10">
     <h4 className="mb-4 text-3xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Portofolio</h4>
