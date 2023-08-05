@@ -25,15 +25,7 @@ a {
   display: flex;
   flex-wrap: wrap; 
 }
-@media (max-width: 640px) {
-  
- 
-  body.dark {
-      
-     
-  background-color: #1a202c; /* Adjust the dark background color as needed */
-    }
-  }
+
 
 .row {
   display: flex;
@@ -51,7 +43,7 @@ a {
   transform-style: preserve-3d;
   perspective: 1000px; 
   transform: rotateY(0deg);
-  background-color: rgb(161, 159, 159);
+  background-color: rgb(204, 202, 202);
   margin: 10px; 
 
 }
