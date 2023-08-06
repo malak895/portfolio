@@ -1,3 +1,4 @@
+
 import Head from "next/head";
 import React from "react";
 import {
@@ -45,13 +46,13 @@ export default function Home() {
 
   return (
     
-    <div className={darkMode ? "dark" : ""}>
+    <div  className={`dark ${darkMode ? "dark" : ""}`}>
       <Head>
         <title>My Portfolio</title>
         <meta  content="width=device-width, initial-scale=1.0" name="description"  />
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <main className="bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
+      <main className="bg-gray-900 dark:bg-gray-800 px-10 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <nav className="w-full py-10 mb-10 flex justify-between dark:text-white ">
             <h1 className="font-burtons text-xl">My-Portfolio</h1>
