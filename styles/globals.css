@@ -29,14 +29,33 @@ a {
 
 
 
+/* Common styles for both smartphone and PC */
+.responsive-div {
+  /* Your common styles here */
+}
 
+/* Styles for smartphones */
+@media (max-width: 767px) {
+  .responsive-div {
+    /* Styles specific to smartphones here */
+  }
+}
+
+/* Styles for PCs */
 @media (min-width: 768px) {
- 
+  .responsive-div {
+    /* Styles specific to PCs here */
+  }
 }
 
-@media (min-width: 1024px) {
- 
+/* Dark mode styles */
+.responsive-div.dark {
+  /* Dark mode styles here */
 }
+
+
+
+
 
 
 
