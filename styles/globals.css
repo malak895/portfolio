@@ -28,23 +28,6 @@ a {
 }
 
 
-.responsive-div{
-  width: 100%;
-
-}
-@media (max-width: 767px) {
-  .responsive-div {
-    font-size: 14px;
-  }
-}
-
-/* Styles for PCs */
-@media (min-width: 768px) {
-  .responsive-div {
-    font-size: 16px;
-  }
-}
-
 
 
 
