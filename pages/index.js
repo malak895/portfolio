@@ -45,7 +45,7 @@ export default function Home() {
 
   return (
     
-    <div className={`responsive-div ${darkMode ? "dark" : ""}`}>
+    <div className={`responsive-div ${darkMode ? "dark" : ""}  bg-gray-800`}>
 
       <Head>
         <title>My Portfolio</title>
